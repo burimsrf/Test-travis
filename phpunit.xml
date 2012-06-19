@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!-- PHPUnit Test Setup -->
+
+<phpunit bootstrap="bootstrap.php"
+         colors="true"
+         mapTestClassNameToCoveredClassName="true"
+         stopOnError="false"
+         stopOnFailure="false"
+         stopOnIncomplete="false"
+         stopOnSkipped="false"
+         verbose="false">
+    <testsuites>
+        <testsuite name="Number">
+            <directory>library/tests</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>
